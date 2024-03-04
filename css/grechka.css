@@ -1,0 +1,121 @@
+body{
+    background-color: black;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+    display: none;
+
+}
+
+#header {
+    background-color: black;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+  
+#logo {
+    float: left;
+    margin-top: -10px;  
+}
+  
+#logo img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+  
+#site-name {
+    font-size: 35px;
+    text-align: center;
+    font-family: Julius Sans One;
+    user-select: none;
+}
+
+.create-line {
+    width: 8000px;
+    border-top: 1px solid white;
+    top: -150px;
+    align-content: center;
+    left: 80px;
+    max-width: 100%;
+}
+
+#rectangle{
+    width: 1000px;
+    height: 664px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    border-end-end-radius: 0px;
+    border-end-start-radius: 0px;
+}
+
+.grechzxc{
+    float: left;
+    width: 500px;
+    height: 470px;
+    border-radius: 45px;
+    border-end-start-radius: 0px;
+    border-start-end-radius: 0px;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Yeseva One;
+}
+
+h2{
+    font-family: Yeseva One;
+    font-size: 30px;
+    padding-left: 550px;
+}
+
+.recept{
+    font-size: 25px;
+    padding-left: 500px;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+.knopkaetapa{
+    width: 1000px;
+    height: 70px;
+    background-color: white;
+    margin-left: auto;
+    magrin-right: auto;
+    margin-top: 7px;
+    float: right;
+    border-radius: 50px;
+    border-start-start-radius: 0px;
+    border-start-end-radius: 0px;
+}
+
+.knopkaetapa:hover{
+    width: 1000px;
+    height: 400px;
+    background-color: white;
+    margin-left: auto;
+    magrin-right: auto;
+    margin-top: 7px;
+    float: right;
+    border-end-end-radius: 50px;
+    border-end-start-radius: 50px;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Yeseva One;
+}

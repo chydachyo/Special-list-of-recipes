@@ -1,0 +1,132 @@
+body{
+	background-color: black;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+    display: none;
+
+}
+
+#header {
+    background-color: black;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+}
+  
+#logo {
+    float: left;
+    margin-top: -10px;  
+}
+  
+#logo img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+  
+#site-name {
+    font-size: 35px;
+    margin-left: 20px;
+    font-family: Julius Sans One;
+    user-select: none;
+}
+
+.create-line {
+    width: 8000px;
+    border-top: 1px solid white;
+    top: -150px;
+    align-content: center;
+    left: 80px;
+    max-width: 100%;
+}
+
+
+.ribapng{
+    width: 300px;
+    height: 300px;
+}
+
+.zezarpng{
+    width: 310px;
+    height: 310px;
+}
+
+.rollspng{
+    width: 300px;
+    height: 300px;
+}
+
+.zapekanpng{
+    width: 300px;
+    height: 300px;
+}
+
+.riba{
+    float: left;
+    margin-top: 150px;
+    margin-left: 320px;
+}
+
+.zezar{
+    float: right;
+    margin-right: 370px;
+    margin-top: 260px;
+}
+
+.rolls{
+    float: left;
+    margin-left: 460px;
+    margin-top: 120px;
+}
+
+.zapekan{
+    float: right;
+    margin-right: 340px;
+    margin-top: 200px;
+    height: 400px;
+}
+
+p5{
+    color: white;
+    font-size: 40px;
+    margin-left: 110px;
+}
+
+p5:hover{
+    color: saddlebrown;
+}
+
+
+p6{
+    color: white;
+    font-size: 40px;
+    margin-left: 90px;
+}
+
+p6:hover{
+    color: burlywood;
+}
+
+p7{
+    color: white;
+    font-size: 40px;
+    margin-left: 92px;
+}
+p7:hover{
+    color: goldenrod;
+}
+
+p8{
+    color: white;
+    font-size: 40px;
+    margin-left: 65px;
+}
+
+p8:hover{
+    color: yellow;
+}
+

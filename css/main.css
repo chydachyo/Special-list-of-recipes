@@ -1,0 +1,324 @@
+@import
+url('https://fonts.googleapis.com/css?family=Exo:400,700');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  font-family: 'Exo', sans-serif;
+  background-color: black;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+::-webkit-scrollbar {
+    display: none;
+
+}
+
+.area{
+    background: black;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height: 100vh;   
+}
+
+.circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 102%;
+    overflow: hidden;;
+}
+
+.circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 25s linear infinite;
+    bottom: -150px;
+    
+}
+
+.circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+
+.circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 1s;
+    animation-duration: 12s;
+}
+
+.circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+}
+
+.circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 11s;
+}
+
+
+
+@keyframes animate {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+
+
+
+#header {
+    z-index: 10;
+    background-color: black;
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+  }
+  
+  #logo {
+    z-index: 10;
+    float: left;
+    margin-top: -10px;
+
+
+   
+  }
+  
+  #logo img {
+    z-index: 10;
+    width: 50px; /* Укажите размеры вашего логотипа */
+    height: 50px;
+    display: block;
+    
+
+  }
+  
+  #site-name {
+    z-index: 10;
+    font-size: 35px;
+    margin-left: 20px;
+    font-family: Julius Sans One;
+    user-select: none;
+  }
+  
+  #menu {
+    z-index: 10;
+    background-color: black;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  
+
+  .slider-container {
+    z-index: 20;
+    width: 624px;
+    height: 336px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 2px solid black; 
+    margin-top: 100px;
+    text-align: center;
+    left: 85px;
+    top: 300px;
+
+  }
+
+.slider {
+    z-index: 20;
+    display: flex;
+    transition: transform 1s; /* Добавляем плавную анимацию с переходом transform в 0.5 секунды */
+    width: 100%;
+    margin-top: 0px;
+
+
+}
+
+.slide {
+  z-index: 10;
+    width: 624px;
+    height: 336px;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+
+h1{
+  z-index: 10;
+	font-family: Caveat;
+	font-size: 64px;
+	color:white;
+}
+
+p1{
+  z-index: 10;
+	font-family: Playfair Display;
+	color: white;
+	font-size: 18px;
+}
+
+.onas{
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 20;
+	padding: 35px;
+	margin-top: 30px;
+
+}
+
+.foodday{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.recipes{
+  z-index: 10;
+	color:white;
+	font-size: 48px;
+	font-family: Playfair Display;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.zav{
+  z-index: 10;
+	width: 341px;
+	height: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.obe{
+  z-index: 10;
+	width: 341px;
+	height: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.uzin{
+  z-index: 10;
+	width: 341px;
+	height: 340px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.zavtrak{
+  z-index: 10;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.obed{
+  z-index: 10;
+  float: right;
+  margin-right: 130px;
+  margin-top:-100px;
+}
+
+.uzhin{
+  z-index: 10;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+.vk{
+  z-index: 10;
+	width: 63px;
+	height: 65px; 
+}
+
+.create-line {
+  z-index: 10;
+  width: 8000px;
+  border-top: 1px solid white;
+  top: -150px;
+ align-content: center;
+  left: 80px;
+  max-width: 100%;
+  }
+
+ h2{
+  z-index: 10;
+	font-family: Playfair Display;
+	color: white;
+	font-size: 64px;
+	user-select: none;
+
